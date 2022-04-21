@@ -1,5 +1,17 @@
+# This script will read in the public wave 4 add health data and extract
+# the variables that we need
+
+
+# Load libraries ----------------------------------------------------------
+
 library(haven)
+library(tidyverse)
 library(here)
+library(ggplot2)
+
+# Add health data ---------------------------------------------------------
+
+
 
 addhealth <- read_sav(here("input","addhealth_w4","w4inhome_dvn.sav"))
 
