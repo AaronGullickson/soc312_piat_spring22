@@ -1,0 +1,15 @@
+ 
+infile dictionary {
+
+_column(3) 	 numeric 		 SEXORNT 		 %20f 		 "Sexual orientation" 
+_column(10) 	 numeric 		 AGE 		 %20f 		 "Age of respondent" 
+_column(17) 	 numeric 		 EDUC 		 %20f 		 "Highest year of school completed" 
+_column(24) 	 numeric 		 PAEDUC 		 %20f 		 "Highest year school completed, father" 
+_column(31) 	 numeric 		 MAEDUC 		 %20f 		 "Highest year school completed, mother" 
+_column(38) 	 numeric 		 SEX 		 %20f 		 "Respondents sex" 
+_column(45) 	 numeric 		 REG16 		 %20f 		 "Region of residence, age 16" 
+_column(52) 	 numeric 		 FAMILY16 		 %20f 		 "Living with parents when 16 yrs old" 
+_column(59) 	 numeric 		 FAMDIF16 		 %20f 		 "Reason not living with parents" 
+_column(66) 	 numeric 		 RELIG16 		 %20f 		 "Religion in which raised" 
+_column(73) 	 numeric 		 FUND16 		 %20f 		 "How fundamentalist was R at age 16" 
+}
